@@ -184,6 +184,10 @@ body{
 .topics-cards{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    
 }
 
 .topic-card button {
@@ -235,6 +239,7 @@ body{
     padding-top: 25px;
     padding-bottom: 31px;
     gap: 32px;
+    padding-right: 58px;
 }
 
 .last-section-card-text1{
@@ -246,7 +251,8 @@ body{
 
 .p{
     display: flex;
-    gap: 300px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .p p {
@@ -257,7 +263,6 @@ body{
 
 .last-section-card-image{
     padding: 25px 304px 337px 34px;
-    background-color: red;
     border-radius: 20px;
 }
 
