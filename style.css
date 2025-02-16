@@ -73,3 +73,60 @@ body{
 .header-nav img:hover{
     transform: scale(1.1);
 }
+
+
+
+
+
+
+
+/* first section  */
+
+.first-section {
+    padding: 0 84px;
+    margin-bottom: 73px;
+}
+
+
+.background{
+    background: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 218px 0 145px 53px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.background h3{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.background h1{
+    font-size: 46px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.background span{
+    font-weight: 700;
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.background p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 495px;
+}
