@@ -73,6 +73,9 @@
         top: 100%;
     }
 
+    .burger{
+        display: flex;
+    }
 
 
     .burger i{
