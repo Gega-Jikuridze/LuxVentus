@@ -29,7 +29,9 @@ body{
     margin-bottom: 10px;
 }
 
-
+.burger{
+    display: none;
+}
 
 .header-nav{
     display: flex;
@@ -186,7 +188,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     
 }
 
